@@ -1,5 +1,5 @@
 {
-    "name": "petermein/php-wopi-client",
+    "name": "petermein/php-wopi-host",
     "description": "PHP Implementation for WOPI",
     "type": "library",
     "license": "MIT",
@@ -10,5 +10,17 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "lcobucci/jwt": "^4.0@alpha"
+    },
+    "autoload": {
+        "psr-4": {
+            "Infratron\\WOPIHost\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
 }

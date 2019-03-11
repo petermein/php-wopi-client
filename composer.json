@@ -1,0 +1,14 @@
+{
+    "name": "petermein/php-wopi-client",
+    "description": "PHP Implementation for WOPI",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Mein",
+            "email": "peter@infratron.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
